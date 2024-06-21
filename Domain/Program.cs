@@ -1,10 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 using Domain.Entities;
 
-Console.WriteLine("Hello, World Biblioteca!");
+Console.WriteLine("Hello, World Domain!");
 
 var adm = new Administrador();
-//Console.WriteLine(adm.GerenciarBiblioteca());
+Console.WriteLine(adm.GerenciarBiblioteca());
 Console.WriteLine(adm.ChamandoObterAdministrador());
 
 var func = new Funcionario();
@@ -18,5 +18,5 @@ Console.WriteLine(livro.ObterResumo());
 
 var membro = new Membro();
 membro.Nome = "Chico";
-//Console.WriteLine(membro.EmprestarLivro());
+Console.WriteLine(membro.EmprestarLivro());
 Console.WriteLine(membro.ChamandoObterMembro());
